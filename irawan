@@ -6,7 +6,18 @@ background(#08D8FF);
 void draw ()
 
 {
+//awan
+noStroke();
+fill(#F5F5F5);
+ellipse(110,100,70,45);
+ellipse(150,100,85,65);
+ellipse(200,100,70,45);
 
+
+fill(#F5F5F5);
+ellipse(600,100,70,45);
+ellipse(650,100,85,65);
+ellipse(700,100,70,45);
 
 
 }
