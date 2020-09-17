@@ -6,6 +6,12 @@ background(#08D8FF);
 void draw ()
 
 {
+
+  //matahari
+noStroke();
+fill(#FFCE08);
+ellipse(120,60,60,60);
+
 //awan
 noStroke();
 fill(#F5F5F5);
@@ -18,6 +24,29 @@ fill(#F5F5F5);
 ellipse(600,100,70,45);
 ellipse(650,100,85,65);
 ellipse(700,100,70,45);
+
+//gunung
+strokeWeight(2);
+fill(#045203);
+arc(350,380,500,300,(180*PI)/180,(360*PI)/180);
+fill(#045203);
+arc(50,380,350,350,(180*PI)/180,(360*PI)/180);
+fill(#045203);
+arc(700,380,400,350,(180*PI)/180,(360*PI)/180);
+
+//Danau
+  noStroke();
+fill(#4169E1);
+rect(0,350,800,180);
+
+//pohon
+  noStroke(); 
+  fill(#5F3613);
+  rect(732,400,15,80);
+  fill(#51BF34);
+  triangle(740,350,760,400,710,400);
+  triangle(740,380,760,425,710,425);
+  triangle(740,400,760,450,710,450);
 
 
 }
